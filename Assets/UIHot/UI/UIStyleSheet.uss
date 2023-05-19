@@ -1,0 +1,56 @@
+* {
+  -unity-font: url("/Assets/UIHot/UI/simhei.ttf");
+}
+
+#main-scroll-view {
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#block1-list-view {
+  flex-direction: row;
+  align-items: center;
+}
+
+.block2-item-title {
+  color: orange;
+  font-size: 15px;
+}
+
+#block3-grid-view {
+  padding: 5px;
+}
+
+.block3-item {
+  margin: 10px;
+}
+
+.block3-item-image {
+  height: 290px;
+  width: 290px;
+}
+
+.block3-item-bottom {
+  height: 100px;
+  flex-direction: row;
+}
+
+.block3-item-rank {
+  height: 100%;
+  width: 100px;
+  background-color: orange;
+  -unity-text-align: middle-center;
+  font-size: 38px;
+  margin: 0;
+}
+
+.block3-item-name {
+  height: 100%;
+  flex-grow: 1;
+  background-color: lemonchiffon;
+  -unity-text-align: middle-center;
+  font-size: 24px;
+  margin: 0;
+}

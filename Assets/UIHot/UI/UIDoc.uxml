@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:common="DM.Common.UI"
+    editor-extension-mode="False">
+    <Style src="UIStyleSheet.uss" />
+    <ScrollView name="main-scroll-view">
+        <VisualElement name="block1-list-view">
+            <Label text="只因你太美" />
+            <Button text="你干嘛嗨哟" />
+        </VisualElement>
+
+        <common:ListView name="block2-list-view" />
+
+        <common:GridView name="block3-grid-view" />
+    </ScrollView>
+</UXML>

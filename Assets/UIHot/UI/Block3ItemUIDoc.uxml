@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements">
+    <VisualElement class="block3-item">
+        <VisualElement class="block3-item-image" />
+        <VisualElement class="block3-item-bottom">
+            <Label class="block3-item-rank" />
+            <Label class="block3-item-name" />
+        </VisualElement>
+    </VisualElement>
+</UXML>
